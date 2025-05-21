@@ -12,7 +12,7 @@
     width: 100%;
     height: auto;
     background-size: cover;
-    background-image: url(back-2.gif);
+    background-image: url(/public/back-2.gif);
     border-bottom-right-radius: 90px;
     margin-bottom: 10px;
     overflow: hidden;
@@ -53,7 +53,7 @@
 }
 
 .col-lg-12 {
-    background-image: url(back-2.gif);
+    background-image: url(/public/back-2.gif);
 }
 
 .button-57 {
@@ -67,7 +67,7 @@
     padding: 10px 30px 10px;
     text-decoration: none;
     cursor: pointer;
-    background-image: url(button.gif);
+    background-image: url(/public/button.gif);
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
@@ -326,7 +326,6 @@
     border: 1px solid blue;
     overflow: hidden;
     position: relative;
-    float: left;
     display: inline-block;
   cursor: pointer;
 }
@@ -343,9 +342,9 @@
 }
 
 /* Several different images */
-.bg-one {background-image: url(BarBQ\ Plaza.jpg);}  
-.bg-two {background-image: url(oshiremen.jpg);} 
-.bg-three {background-image: url(7-eleven_logo.png);}
+.bg-one {background-image: url(/public/BarBQ\ Plaza.jpg);}  
+.bg-two {background-image: url(/public/oshiremen.jpg);} 
+.bg-three {background-image: url(/public/7-eleven_logo.png);}
 
 .col-lg-4 a {
     display: none;
